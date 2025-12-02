@@ -143,11 +143,11 @@ footer .icons i:hover{
 .menu{
     background-color: #f5cb68d0;
     backdrop-filter: blur(10px);
-    width: 300px;
+    width: 280px;
     height: 100vh;
     position: fixed;
     top: 0;
-    left: -350px;
+    right: -350px;
     padding: 2rem 0;
     z-index: 100;
     transition: 0.3s linear;
