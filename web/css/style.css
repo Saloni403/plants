@@ -154,9 +154,9 @@ footer .icons i:hover{
 }
 .menu > div{
     /* width: fit-content; */
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; */
 padding-left: 2.5rem;
 color: #65a15a;
 }
@@ -166,7 +166,7 @@ color: #65a15a;
     color: #fff;
     padding:0 0.5rem;
     border-radius: 50%;
-    transform:translateX(40%)
+    /* transform:translateX(40%) */
 }
 /* .menu h3{
     color: #fff;
@@ -401,4 +401,127 @@ left: 0;
 height: 4px;
 width: 100px;
 background-color: #f5cb68;
+}
+
+
+
+
+
+
+/* about us page */
+
+
+/* small banner */
+.smallbanner{
+    background-color: #4a7642;
+    width: 100%;
+    object-fit: cover;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.smallbanner > div p{
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 700;
+}
+.smallbanner > div span{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+@media (max-width:768px) {
+    .smallbanner > div p{
+        font-size: 2rem;
+    }
+}
+
+.aboutcontent p{
+font-size: 14px;
+color: grey;
+}
+
+/* about us sec */
+        .aboutussec .container {
+            transform: translateY(-50px);
+            background-color: #fff;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.3);
+        }
+
+        .about_images {
+            display: flex;
+            position: relative;
+        }
+
+        .about_images img {
+            width: 50%;
+            height: 100%;
+            border: 2px solid #fff;
+            border-radius: 10px;
+        }
+
+        .about_images .experiences {
+            background-color: #f5cb68;
+            color: #fff;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50px);
+            padding: 1rem 3rem;
+            border-radius: 10px 10px 0;
+            border: 5px solid #fff;
+            font-weight: bold;
+        }
+
+        .about_images .experiences span {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+        @media (max-width:768px) {
+             .about_images .experiences {
+                 padding:0.5rem 1rem;
+                  transform: translateX(-25px);
+                   font-weight: normal;
+             }
+             .about_images .experiences span {
+            font-size: 1rem;
+        }
+        }
+        
+
+        /* mission */
+        .ourmissionpara{
+             position: relative;
+    font-style: italic;
+    width: 90%;
+    left: 50%;
+    
+    transform: translateX(-50%);
+    padding:3rem 2rem 4rem;
+        }
+        .ourmissionpara::before {
+    content: "“";
+    font-size: 4rem;
+    position: absolute;
+    left: -15px;
+    top: -5px;
+    color: #f5cb68; /* optional */
+}
+
+.ourmissionpara::after {
+    content: "”";
+    font-size: 4rem;
+    position: absolute;
+    right: -15px;
+    bottom: -5px;
+    color: #f5cb68; /* optional */
+}
+@media (max-width:768px) {
+ .ourmissionpara{
+    padding:3rem 0.5rem 4rem;
+ }   
 }
