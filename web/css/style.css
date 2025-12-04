@@ -154,11 +154,12 @@ footer .icons i:hover{
 }
 .menu > div{
     /* width: fit-content; */
-    /* display: flex;
+    display: flex;
     align-items: center;
-    justify-content: space-between; */
+    justify-content: space-between;
 padding-left: 2.5rem;
 color: #65a15a;
+position: relative;
 }
 .menu > div i{
     font-size: 2rem;
@@ -166,12 +167,10 @@ color: #65a15a;
     color: #fff;
     padding:0 0.5rem;
     border-radius: 50%;
-    /* transform:translateX(40%) */
+    position: absolute;
+    transform: translateX(-120%);
 }
-/* .menu h3{
-    color: #fff;
-    margin-left: 2.5rem;
-} */
+
 .menu ul{
     padding-left: 0;
     margin-bottom: 0;
@@ -524,4 +523,59 @@ color: grey;
  .ourmissionpara{
     padding:3rem 0.5rem 4rem;
  }   
+}
+
+
+/* services page */
+.ossec .title-big , .git .title-big{
+    color: #4a7642;
+}
+
+/* contact us page */
+    .contactfrm >div{
+background-image: url("../images/aboutusbanners2.jpeg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+
+}
+  .contactfrm >div > div{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    padding: 2.5rem 0;
+  }
+  .contactfrm form{
+width: 50%;
+}
+.contactfrm .title-big{
+    color: #65a15a;
+}
+.contactfrm form input , .contactfrm form textarea{
+    width: 100%;
+    margin-top: 1rem;
+    padding: 1rem;
+    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    background-color: #d7fbd0;
+    border: none;
+}
+.contactfrm form input:focus , .contactfrm form textarea:focus{
+    border: 2px solid #65a15a;
+    outline: none;
+}
+
+.tra{
+    transform: translateX(50%);
+}
+@media (max-width:768px) {
+    .tra{
+    transform: translateX(30%);
+}
+.gittext{
+    font-size: 14px;
+}
+.contactfrm form{
+width: 90%;
+}
 }
