@@ -119,6 +119,14 @@ footer .icons i:hover{
     color: #fff;
 }
 
+.header{
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 99;
+    /* border-bottom:2px solid #65a15a; */
+    box-shadow: 0px 1px 8px #65a15aa1;
+}
 .openmenu{
     font-size: 2rem;
     color: #036601;
@@ -578,4 +586,9 @@ width: 50%;
 .contactfrm form{
 width: 90%;
 }
+}
+
+/* gallery page */
+.gallery .row img{
+    aspect-ratio: 1 / 1;
 }
