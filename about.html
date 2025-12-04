@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Green Orchard | About Us</title>
+    <link rel="icon" type="image" href="web/images/logobgrem.png">
     <link rel="stylesheet" href="web/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
@@ -19,24 +20,24 @@
 
 <body>
     <!-- topest nav -->
-    <section class="toppest d-sm-flex d-none"> <!--mobile view -->
+      <section class="toppest d-sm-flex d-none"> <!--mobile view -->
         <div class="container text-end">
             <div class="py-2">
-                <div class="toppest_icons"> <!--mobile view -->
-                    <i class="bi bi-facebook"></i>
-                    <i class="bi bi-instagram"></i>
-                    <i class="bi bi-whatsapp"></i>
-                    <i class="bi bi-telephone"></i>
-                </div>
+               <div class="toppest_icons"> <!--mobile view -->
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-whatsapp"></i>
+                <i class="bi bi-telephone" style="cursor: pointer;" onclick="location.href='tel:919876543123'"></i>
+            </div>
             </div>
         </div>
     </section>
-
+   
 
     <!-- header -->
  <section class="header">
         <div class="container d-flex align-items-center justify-content-between">
-            <img src="web/images/logobgrem.png" onclick="location.href='index.html'" width="100" alt="">
+            <img src="web/images/logobgrem.png" style="cursor: pointer;" onclick="location.href='index.html'" width="100" alt="">
             <ul class="d-md-flex gap-5 align-items-center justify-content-center d-none">
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="about.html">ABOUT</a></li>
@@ -156,8 +157,8 @@
             <div class="row gy-4">
                 <div class="col-md-4">
                     <div>
-                        <img src="web/images/logobgrem.png" width="100" alt="">
-                        <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <img src="web/images/logobgrem.png" style="cursor: pointer;" onclick="location.href='index.html'" width="100" alt="">
+                        <p class="mb-0" style="font-size: 14px;">Healthy, disease-free, and genetically superior planting material.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -176,13 +177,13 @@
                     <div>
                         <h3>Contact Us</h3>
                         <ul>
-                            <li><a href="">
-                                    <i class="bi bi-telephone"></i> +91 9876543123
+                            <li><a href="tel:919876543123">
+                                    <i class="bi bi-telephone"></i> +91 98765 43123
                                 </a>
                             </li>
                             <li>
-                                <a href="">
-                                    <i class="bi bi-envelope"></i> info@plants123.com
+                                <a href="mailto:greenorchardkashmir@gmail.com">
+                                    <i class="bi bi-envelope"></i> greenorchardkashmir@gmail.com
                                 </a>
                             </li>
                         </ul>

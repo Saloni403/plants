@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.bi-facebook , .bi-instagram, .bi-whatsapp {
+    cursor: pointer;
+}
 .textsize{
 
     font-size: 14px;

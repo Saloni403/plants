@@ -16,3 +16,16 @@ document.addEventListener("click", (e) => {
         menu.style.right = "-350px";
     }
 });
+
+document.querySelector(".bi-facebook").addEventListener("click",()=>{
+    window.open("", "_blank")
+    
+})
+document.querySelector(".bi-instagram").addEventListener("click",()=>{
+    window.open("", "_blank")
+    
+})
+document.querySelector(".bi-whatsapp").addEventListener("click",()=>{
+    window.open("https://wa.me/919876543123", "_blank")
+    
+})
