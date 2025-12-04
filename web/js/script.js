@@ -18,14 +18,14 @@ document.addEventListener("click", (e) => {
 });
 
 document.querySelector(".bi-facebook").addEventListener("click",()=>{
-    window.open("", "_blank")
+    window.open("https://www.facebook.com/share/1ADN9gwx2t/", "_blank")
     
 })
 document.querySelector(".bi-instagram").addEventListener("click",()=>{
-    window.open("", "_blank")
+    window.open("https://www.instagram.com/the_greenorchard/", "_blank")
     
 })
 document.querySelector(".bi-whatsapp").addEventListener("click",()=>{
-    window.open("https://wa.me/919876543123", "_blank")
+    window.open("https://wa.me/919596116362", "_blank")
     
 })
