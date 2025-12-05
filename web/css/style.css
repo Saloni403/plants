@@ -117,6 +117,15 @@ footer .icons i:hover{
 .toppest{
     background-color: #036601;
 }
+.toppest a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+    line-height: 1.25;
+}
+.toppest a i{
+    font-size: 1.25rem;
+}
 .toppest_icons i{
     margin-left: 1rem;
     color: #fff;
@@ -126,7 +135,7 @@ footer .icons i:hover{
     position: sticky;
     top: 0;
     background-color: #fff;
-    z-index: 99;
+    z-index: 100;
     /* border-bottom:2px solid #65a15a; */
     box-shadow: 0px 1px 8px #65a15aa1;
 }

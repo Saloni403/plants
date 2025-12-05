@@ -20,16 +20,22 @@
 
 <body>
     <!-- topest nav -->
-      <section class="toppest d-sm-flex d-none"> <!--mobile view -->
-        <div class="container text-end">
-            <div class="py-2">
-               <div class="toppest_icons"> <!--mobile view -->
+      <section class="toppest "> <!--mobile view -->
+        <div class="container d-flex align-items-center justify-content-between p-2">
+            <!-- <div class="py-2"> -->
+              
+                    <a href="https://maps.app.goo.gl/xfzXxJCurYM5srqu7" class="d-flex gap-2 align-items-center">
+                        <i class="bi bi-geo-alt"></i> 
+                        <p class="mb-0">THE GREEN ORCHARD <br>Managam, Wagoora, Baramulla.</p>
+</a>
+               
+               <div class="toppest_icons d-sm-flex d-none"> <!--mobile view -->
                 <i class="bi bi-facebook"></i>
                 <i class="bi bi-instagram"></i>
                 <i class="bi bi-whatsapp"></i>
                 <i class="bi bi-telephone" style="cursor: pointer;" onclick="location.href='tel:919596116362'"></i>
             </div>
-            </div>
+            <!-- </div> -->
         </div>
     </section>
    
@@ -37,7 +43,10 @@
     <!-- header -->
  <section class="header">
         <div class="container d-flex align-items-center justify-content-between">
+            <div>
             <img src="web/images/logobgrem.png" style="cursor: pointer;" onclick="location.href='index.html'" width="100" alt="">
+                <p class="mb-2" style="font-size: 8px; font-weight: bold;">Where every plants carries a promise.</p>
+        </div>
             <ul class="d-md-flex gap-5 align-items-center justify-content-center d-none">
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="about.html">ABOUT</a></li>
@@ -51,7 +60,7 @@
             </div>
         </div>
     </section>
-
+    
     <!-- menu -->
     <div class="menu d-md-none">
         <div>
@@ -83,7 +92,7 @@
             <div>
                 <div class="row gy-4 d-flex align-items-center justify-content-center">
                     <div class="col-xl-4 col-md-6">
-                        <div onclick="location.href='//wa.me/919596116362'"
+                        <div style="cursor: pointer;" onclick="location.href='//wa.me/919596116362'"
                             class="clickable bg-light d-flex align-items-center justify-content-between p-md-4 p-2 overflow-hidden border rounded">
                             <div class="gittext">
                                 <h4>Whatsapp</h4>
@@ -106,7 +115,7 @@
                     </div>
 
                     <div class="col-xl-4 col-md-6">
-                        <div onclick="location.href='//www.instagram.com/the_greenorchard/'"
+                        <div style="cursor: pointer;" onclick="location.href='//www.instagram.com/the_greenorchard/'"
                             class="clickable bg-light d-flex align-items-center justify-content-between p-md-4 p-2 overflow-hidden border rounded">
                             <div class="gittext">
                                 <h4>Instagram</h4>
@@ -139,35 +148,35 @@
                     </div>
 
                     <div class="col-xl-4 col-md-6">
-                        <div onclick="location.href=''"
+                        <div style="cursor: pointer;" onclick="location.href='//www.facebook.com/share/1ADN9gwx2t/'"
                             class="clickable bg-light d-flex align-items-center justify-content-between p-md-4 p-2 overflow-hidden border rounded">
                             <div class="gittext">
-                                <h4>LinkedIn</h4>
+                                <h4>Facebook</h4>
                                 <p>
-                                 The Green Orchard pvt. limited. 
+                                 The Green Orchard | Baramula 
                                 </p>
                                 <br>
                             </div>
                             <div class="tra">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="87" height="87" viewBox="0 0 107 107"
-                                    fill="none">
-                                    <!-- Outer rounded square -->
-                                    <path
-                                        d="M90.6667 8C95.0933 8 98.6667 11.5733 98.6667 16V91C98.6667 95.4267 95.0933 99 90.6667 99H16C11.5733 99 8 95.4267 8 91V16C8 11.5733 11.5733 8 16 8H90.6667ZM90.6667 0H16C7.14667 0 0 7.14667 0 16V91C0 99.8533 7.14667 107 16 107H90.6667C99.52 107 106.667 99.8533 106.667 91V16C106.667 7.14667 99.52 0 90.6667 0Z"
-                                        fill="#194A33" />
+                                <svg xmlns="http://www.w3.org/2000/svg" width="87" height="87" viewBox="0 0 107 107" fill="none">
+  <!-- Outer rounded square (kept identical to your original) -->
+  <path
+    d="M90.6667 8C95.0933 8 98.6667 11.5733 98.6667 16V91C98.6667 95.4267 95.0933 99 90.6667 99H16C11.5733 99 8 95.4267 8 91V16C8 11.5733 11.5733 8 16 8H90.6667ZM90.6667 0H16C7.14667 0 0 7.14667 0 16V91C0 99.8533 7.14667 107 16 107H90.6667C99.52 107 106.667 99.8533 106.667 91V16C106.667 7.14667 99.52 0 90.6667 0Z"
+    fill="#194A33" />
 
-                                    <!-- LinkedIn "in" letters -->
-                                    <path
-                                        d="M32 44H42V75H32V44ZM37 30C40.3137 30 43 32.6863 43 36C43 39.3137 40.3137 42 37 42C33.6863 42 31 39.3137 31 36C31 32.6863 33.6863 30 37 30ZM47 44H56V49H56.2C57.7333 46.6667 61 43 66.6667 43C75.3333 43 78 48.3333 78 56.6667V75H68V59.3333C68 55.3333 67.3333 52 63.3333 52C59.3333 52 58 55 58 59.3333V75H47V44Z"
-                                        fill="#8CBC4F" />
-                                </svg>
+  <!-- Facebook "f" glyph (styled to match your green accent) -->
+  <path
+    d="M66 44h-7.5c-3.2 0-5.5 1.9-5.5 5.3V56h11.6l-1 10.6H53v25.1H43V66.6h-7.7v-9.3h7.7v-6.4c0-8 4.8-12.7 12.1-12.7H66V44Z"
+    fill="#8CBC4F" />
+</svg>
+
 
                             </div>
                         </div>
                     </div>
 
                     <div class="col-xl-4 col-md-6">
-                        <div onclick="location.href='mailto::greenorchardkashmir@gmail.com'"
+                        <div style="cursor: pointer;" onclick="location.href='mailto::greenorchardkashmir@gmail.com'"
                             class="clickable bg-light d-flex align-items-center justify-content-between p-md-4 p-2 overflow-hidden border rounded">
                             <div class="gittext">
                                 <h4>Email</h4>
@@ -210,7 +219,7 @@
                     </div>
 
                     <div class="col-xl-4 col-md-6">
-                        <div onclick="location.href=''"
+                        <div style="cursor: pointer;" onclick="location.href='//maps.app.goo.gl/xfzXxJCurYM5srqu7'"
                             class="clickable bg-light d-flex align-items-center justify-content-between p-md-4 p-2 overflow-hidden border rounded">
                             <div class="gittext">
                                 <h4>Location</h4>
@@ -262,13 +271,13 @@
       </div>
     </section>
      <!-- footer -->
-   <footer class="py-5">
+    <footer class="py-5">
         <div class="container">
             <div class="row gy-4">
                 <div class="col-md-4">
                     <div>
-                        <img src="web/images/logobgrem.png" style="cursor: pointer;" onclick="location.href='index.html'" width="100" alt="">
-                        <p class="mb-0" style="font-size: 14px;">Healthy, disease-free, and genetically superior planting material.</p>
+                        <img src="web/images/logobgrem.png" style="cursor: pointer;" onclick="location.href='index.html'" width="130" alt="">
+                        <p class="mb-0" style="font-size: 10px; font-weight: bold;">Where every plants carries a promise.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
