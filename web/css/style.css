@@ -203,12 +203,33 @@ font-weight: bold;
  .b1{
      background-image: url(../images/banner4.avif); 
  }
+ .b3{
+    background-image: url(../images/ogbanner.jpeg);
+ }
+ .b4{
+    background-image: url(../images/trellis.jpeg);
+ }
+ .b5{
+    background-image: url(../images/orgbanner\ \(1\).jpeg);
+ }
+  .b6{
+    background-image: url(../images/orgbanner\ \(2\).jpeg);
+ }
+  .b7{
+    background-image: url(../images/orgbanner\ \(3\).jpeg);
+ }
+  .b8{
+    background-image: url(../images/ogbanners\ \(1\).jpeg);
+ }
+  .b9{
+    background-image: url(../images/ogbanners\ \(2\).jpeg);
+      
+ }
 .banner-section{
     height: 60vh;
     background-repeat: no-repeat;
      background-position: center;
       background-size: cover;
-    
 }
 
 .banners-content{
@@ -221,7 +242,7 @@ font-weight: bold;
     justify-content: end;
 }
 .slider-information{
-    transform: translateX(-50%);
+    transform: translateX(-100%);
 }
 
 .slick-next {
@@ -248,6 +269,9 @@ z-index: 99;
 }
 .slick-prev {
 left: 10px !important;
+}
+.slider-information{
+    transform: translateX(-50%);
 }
 } 
 
@@ -383,7 +407,9 @@ background-color: #f5cb68;
     /* color: #; */
    
 }
-
+.oservicess img{
+    /* aspect-ratio: 3 / 2; */
+}
 
 
 
